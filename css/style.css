@@ -105,8 +105,9 @@
 }
 /* Logo */
 .logo {
-  font-size: 2rem;
-  font-weight: bold;
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
 }
 /* Header Contact */
 /* .header__contact {
@@ -146,10 +147,10 @@
     border-bottom-left-radius: 1em;
     border-bottom-right-radius: 1em;
     background-color: var(--clr-primary-400);
-    transition: all .5s;
+    transition: all 0.5s;
   }
 
-  .nav__open{
+  .nav__open {
     height: 30vh;
   }
 
@@ -182,7 +183,7 @@
     transform: translateX(100%);
   }
 
-  .nav__open{
+  .nav__open {
     transform: translateX(0);
   }
 
@@ -496,15 +497,15 @@
 }
 
 @media screen and (max-width: 530px) {
-  .about-us__section__container{
+  .about-us__section__container {
     flex-direction: column;
   }
 
-  .about-us__section__text{
+  .about-us__section__text {
     width: 100%;
   }
 
-  .about-us__section__map{
+  .about-us__section__map {
     width: 100%;
   }
 }
@@ -563,10 +564,10 @@ blockquote p::after {
   content: "\201D";
 }
 
-@media screen and (max-width: 550px){
+@media screen and (max-width: 550px) {
   .testimony__section__card__container {
-  flex-direction: column;
-}
+    flex-direction: column;
+  }
   .testimony__section__card {
     width: 100%;
   }
@@ -607,13 +608,13 @@ blockquote p::after {
   gap: 1em;
 }
 
-.copyright__section{
+.copyright__section {
   padding: 1em;
   justify-content: center;
   border: 1px solid var(--clr-primary-100);
 }
 
-.footer__card{
+.footer__card {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -622,33 +623,33 @@ blockquote p::after {
 
 .footer__card p,
 .footer__card a {
-  font-size: .8rem;
-  margin-top: .5em;
+  font-size: 0.8rem;
+  margin-top: 0.5em;
 }
 
 @media screen and (max-width: 655px) {
-  .footer__card{
+  .footer__card {
     width: 47%;
   }
 }
 
 @media screen and (max-width: 460px) {
-  .footer__container{
+  .footer__container {
     height: 600px;
     margin-top: 9em;
     padding-top: 9em;
   }
 
   .footer__section::after {
-  top: -9em;
-}
-  .footer__card{
+    top: -9em;
+  }
+  .footer__card {
     width: 100%;
   }
 }
 
 @media screen and (max-width: 300px) {
-  .footer__card{
+  .footer__card {
     width: 100%;
   }
 }
